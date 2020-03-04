@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	//
     n=20;  // Nte Lucaszahl
     result = calcLucasN(n);
-    System.out.println((result>0)? "Die "+n+".Lucaszahl lautet: "+ result : "Berechnung der Lucaszahl für negative Eingabe nicht implementiert");
+    System.out.println((result>0)? "Die "+n+".Lucaszahl lautet: "+ result : "Berechnung der Lucaszahl für 0/negative Eingabe nicht implementiert");
 
     sumLucasResult=calcSumLucasN(lower,upper); // Summe Lucaszahlen von bis
     System.out.println((sumLucasResult>0)? "Die Summer der "+lower+". bis zur "+upper+". Lucaszahl lautet: "+ sumLucasResult : "ERROR: check Lower and upper Parameters");
